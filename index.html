@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício boas práticas de CSS</title>
+    <link rel="stylesheet" href=".bem\main.css">
+</head>
+<body>
+    <div class="produtos"> <!-- Bloco principal -->
+    <div class="produtos__produto"> <!-- Elemento do bloco -->
+        <img class="produtos__imagem" src="https://via.placeholder.com/100x100">
+        <h4 class="produtos__nome">Nome do produto</h4>
+        <p class="produtos__descricao">
+            Descrição do produto
+        </p>
+    </div>
+
+    <!-- Produto com modificador de destaque -->
+    <div class="produtos__produto produtos__produto--destaque"> 
+        <img class="produtos__imagem" src="https://via.placeholder.com/100x100">
+        <h4 class="produtos__nome">Nome do produto</h4>
+        <p class="produtos__descricao">
+            Descrição do produto
+        </p>
+    </div>
+
+    <!-- Terceiro produto (sem modificador) -->
+    <div class="produtos__produto">
+        <img class="produtos__imagem" src="https://via.placeholder.com/100x100">
+        <h4 class="produtos__nome">Nome do produto</h4>
+        <p class="produtos__descricao">
+            Descrição do produto
+        </p>
+    </div>
+</div>
+</body>
+</html>
