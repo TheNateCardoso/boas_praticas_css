@@ -15,12 +15,10 @@
 
     
     /* Elemento do bloco .produtos: .produtos__produto */
-    &__produto {
-        &__produto--destaque {
-        border: 2px solid gold;
-        padding: 8px;
-        background-color: #ffff42;
-        }
+    &__produto--destaque {
+    border: 2px solid gold;
+    padding: 8px;
+    background-color: #ffff42;
     }
 
     /* Elemento "imagem" dentro do bloco .produtos */
