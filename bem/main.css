@@ -4,6 +4,7 @@
   font-family: sans-serif;
 }
 
+/* Bloco principal: .produtos */
 .produtos {
   max-width: 640px;
   width: 100%;
@@ -12,7 +13,7 @@
   grid-template-columns: repeat(3, 1fr); /* Equivalente a 33% 33% 33% */
   gap: 1%; /* Substitui grid-column-gap */
 }
-.produtos__produto__produto--destaque {
+.produtos__produto--destaque {
   border: 2px solid gold;
   padding: 8px;
   background-color: #ffff42;
